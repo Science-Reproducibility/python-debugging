@@ -141,10 +141,57 @@ When reading a traceback, it is important to look for the following information:
 - The full path to the file where the error occurred (e.g., `/Users/dorota/teaching/pycon_debug/part2/standard_deviation.py`)
 - The traceback message (e.g., `division by zero`)
 
-## 3 :eyes: :keyboard: Reading Python traceback
+## 3 :eyes: :keyboard: Excercise1: Reading Python traceback
+
 Now it is time for you to practice reading Python traceback.
-In the directory `week1/ex1` you will find a Python script `traceback.py` that contains a deliberate errors.
+Open codespace and navigate to the directory `week1/ex1`.
+In this directory you will find a Python script `traceback.py` that contains a deliberate errors.
 Your task is to run the script and read the traceback to identify the type of error, the line number, and the function where the error occurred.
 Do you know how to fix the error?
 
 
+## 4 :book: Handling exceptions
+Handling exceptions in Python is essential to ensure that your program can deal with unexpected situations gracefully, 
+rather than crashing abruptly. 
+Proper exception handling helps in maintaining program robustness, improving user experience, 
+and managing unforeseen issues effectively, for example:
+- *Prevents program crashes*: 
+
+  Handling exceptions allows the program to recover and continue running or shut down gracefully.
+
+- *Provide Meaningful Feedback*
+
+  Instead of cryptic error messages, you can present user-friendly information to help end-users understand 
+and resolve the issue.
+
+- *Manage Resources Properly*
+
+  Exception handling ensures resources like files, database connections, or sockets are closed or released, 
+even when an error occurs.
+The `finally` block is often used for cleanup.
+
+- *Handle Specific Situations Gracefully*
+    
+      You can catch specific exceptions and handle them differently based on the situation.
+Certain exceptions, such as missing files, invalid input, or network issues, are foreseeable 
+and can be managed appropriately.
+
+## 5 :keyboard: :white_check_mark: Excersise 2: Handling exceptions
+
+> [!TIP]
+> - This exercise has :keyboard: and :white_check_mark:, that means you will have a specific task and the output will be checked by automatic tests I wrote for this course, and the repository will move to **Part 2** after the task is completed.
+> - This is our first exercise of this type, so I will provide very detailed steps to guide you.
+
+In this exercise, you will practice handling exceptions in Python.
+In the directory `week1/ex2` you will find a Python script `exceptions.py` that contains functions
+that could raise exceptions in specific situations. 
+Your task is to modify the script to handle these exceptions gracefully and provide meaningful feedback to the user.
+
+## 6. Summary
+In this part of the course, you learned about the most common errors in Python, how to read Python traceback, 
+and how to handle exceptions.
+In the next part we will start with the debugging process.
+
+
+> [!IMPORTANT]
+> Following all the steps from part 5, including creating and merging the Pull Request, is necessary to move to the next parts of the course.
