@@ -80,10 +80,8 @@ Every step should take no more than 1--2, hours and significantly less if you ha
 
 ---
 
-Get help: [Submit an issue](https://github.com/scientific-software-lessons/python-debugging/issues)
+**Get help:** [Submit an issue](https://github.com/scientific-software-lessons/python-debugging/issues)
 
-Work was founded by [BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-program)
-
-[MIT License](https://gh.io/mit)
+**Acknowledgment:** This work was supported by the Better Scientific Software Fellowship Program, a collaborative effort of the U.S. Department of Energy (DOE), Office of Advanced Scientific Research via ANL under Contract DE-AC02-06CH11357 and the National Nuclear Security Administration Advanced Simulation and Computing Program via LLNL under Contract DE-AC52-07NA27344; and by the National Science Foundation (NSF) via SHI under Grant No. 2327079.
 
 </footer>
